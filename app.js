@@ -33,18 +33,17 @@ for (const card of cardhover) {
 }
 
 // Change Theme
+// let changeThemeBtn = document.querySelector('#change-theme');
 changeThemeBtn.addEventListener('click', ()=>{
     document.body.classList.toggle('dark-theme');
     if(document.body.classList.contains('dark-theme')){
-        changeThemeBtn.innertext = 'LIGHT';
+        changeThemeBtn.textContent = 'LIGHT';
         matterjs.style.display = 'none'; 
     }else{
-        changeThemeBtn.innertext = 'DARK';
+        changeThemeBtn.textContent = 'DARK';
         matterjs.style.display = ''; 
     }
-
 })
-
 // Local Cashe Storage
 
 
