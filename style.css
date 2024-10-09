@@ -20,6 +20,7 @@
     --body-light-background: #f6f6f6;
     --footer-light-background: #f1f1f1;
     --card-light-background: #eceff1;
+    --card-btn-background: #f6f6f6;
 
     /* Gradients */
     --gradient-light: linear-gradient(141deg, #adf1e0, #8075ff 28%, #ff7171 98%);
