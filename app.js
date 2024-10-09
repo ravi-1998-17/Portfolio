@@ -34,6 +34,7 @@ for (const card of cardhover) {
 // Change Theme
 changeThemeBtn.addEventListener('click', ()=>{
     document.body.classList.toggle('dark-theme');
+    changeThemeBtn.innertext = 'LIGHT';
     console.log('Hello')
 })
 
