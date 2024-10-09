@@ -1,6 +1,7 @@
 let logohover = document.querySelector('header nav .logo #hover-img');
 let diveIn  = document.querySelector('#hover');
 let cardhover  = document.querySelectorAll('.card');
+let changeThemeBtn = document.querySelector('#change-theme');
 
 // Nav Brand Profile Picture 
 logohover.addEventListener('mouseover', ()=>{
@@ -28,8 +29,11 @@ for (const card of cardhover) {
     card.addEventListener('mouseout', () => {
     card.classList.remove('shadow');
     });
-
-      
 }
 
+// Change Theme
+changeThemeBtn.addEventListener('click', ()=>{
+    document.body.classList.toggle('dark-theme');
+    console.log('Hello')
+})
 

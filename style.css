@@ -33,6 +33,13 @@
     --greenish-cyan: #277E69;
 }
 
+.dark-theme{
+    --body-light-background: #323235;
+    --gradient-dark:linear-gradient(141deg, #adf1e0, #8075ff 28%, #ff7171 98%);
+    --grey-text: #fff;
+    --dim-grey: #fff;
+}
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
