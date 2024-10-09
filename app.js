@@ -35,7 +35,19 @@ for (const card of cardhover) {
 // Change Theme
 changeThemeBtn.addEventListener('click', ()=>{
     document.body.classList.toggle('dark-theme');
-    matterjs.style.display = 'none'; 
-    console.log('Hello');
+    if(document.body.classList.contains('dark-theme')){
+        changeThemeBtn.innertext = 'LIGHT';
+        matterjs.style.display = 'none'; 
+    }else{
+        changeThemeBtn.innertext = 'DARK';
+        matterjs.style.display = ''; 
+    }
+
 })
+
+// Local Cashe Storage
+
+
+
+
 
