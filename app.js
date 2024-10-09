@@ -2,7 +2,6 @@ let logohover = document.querySelector('header nav .logo #hover-img');
 let diveIn  = document.querySelector('#hover');
 let cardhover  = document.querySelectorAll('.card');
 let changeThemeBtn = document.querySelector('#change-theme');
-let themeSpan = document.querySelector('header nav theme-btn span');
 let matterjs = document.querySelector('#matterJs');
 
 // Nav Brand Profile Picture 
