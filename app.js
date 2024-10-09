@@ -2,6 +2,7 @@ let logohover = document.querySelector('header nav .logo #hover-img');
 let diveIn  = document.querySelector('#hover');
 let cardhover  = document.querySelectorAll('.card');
 let changeThemeBtn = document.querySelector('#change-theme');
+let themeSpan = document.querySelector('header nav theme-btn span');
 let matterjs = document.querySelector('#matterJs');
 
 // Nav Brand Profile Picture 
@@ -36,10 +37,10 @@ for (const card of cardhover) {
 changeThemeBtn.addEventListener('click', ()=>{
     document.body.classList.toggle('dark-theme');
     if(document.body.classList.contains('dark-theme')){
-        changeThemeBtn.innertext = 'LIGHT';
+        themeSpan.innertext = 'LIGHT';
         matterjs.style.display = 'none'; 
     }else{
-        changeThemeBtn.innertext = 'DARK';
+        themeSpan.innertext = 'DARK';
         matterjs.style.display = ''; 
     }
 
